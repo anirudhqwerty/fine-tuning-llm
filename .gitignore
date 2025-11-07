@@ -1,0 +1,19 @@
+# ignore dataset and large files
+datasets/
+dataset/
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.zip
+*.pt
+
+# ignore cache / checkpoints
+outputs/
+__pycache__/
+*.log
+*.ckpt
+
+# ignore system files
+.DS_Store
+Thumbs.db
